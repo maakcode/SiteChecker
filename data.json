@@ -1,0 +1,24 @@
+{
+    "Sites": [
+        {
+            "url": "http://www.example.com/",
+            "lastUpdate": "2019-05-13T21:41:48+0900",
+            "enabled": 1,
+            "failCount": 0,
+            "pattern": "body h1",
+            "name": "www.example.com",
+            "lastData": [
+            ]
+        },
+        {
+            "url": "https://www.python.org/blogs/",
+            "lastUpdate": "2019-05-13T21:41:49+0900",
+            "enabled": 1,
+            "failCount": 0,
+            "pattern": "li > h3.event-title > a",
+            "name": "python.org",
+            "lastData": [
+            ]
+        }
+    ]
+}
