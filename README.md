@@ -56,7 +56,7 @@ Simplest usage example: `python SiteChecker.py data.json -a Pushbullet_API_Token
 
 ### Run with Crontab example
 1. `crontab -e`
-1. `* * * * * /usr/bin/env bash -c 'cd /VirtualEnvironmentPath/ && source /VirtualEnvironmentPath/bin/activate && python SiteChecker.py work.json -a API_KEY -v' >> cron.log 2>&1`
+1. `* * * * * /usr/bin/env bash -c 'cd /VirtualEnvironmentPath/ && source /VirtualEnvironmentPath/bin/activate && python SiteChecker.py data.json -a API_KEY -v' >> cron.log 2>&1`
 
 ## Lisence
 [MIT Lisence](https://github.com/Makeeyaf/SiteChecker/blob/master/LICENSE)
