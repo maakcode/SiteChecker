@@ -30,16 +30,16 @@ class SiteChecker:
         self.pb = Pushbullet(apiKey)
 
         if isQuiet:
-            self.isVerbose = True
-
-        if isVerbose:
             self.isQuiet = True
 
+        if isVerbose:
+            self.isVerbose = True
+
         if maxFailCount != None:
-            self.maxFailCount = maxFailCount
+            self.maxFailCount = maxFailCount[0]
         
         if updateCycle != None:
-            self.updateCycle = updateCycle
+            self.updateCycle = updateCycle[0]
         
 
     def readOption(self, path):
