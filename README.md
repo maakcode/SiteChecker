@@ -1,5 +1,5 @@
 # SiteChecker
-SiteChecker is command line python script that checks if sites changed, then push notification via [Pushbullet](https://docs.pushbullet.com/).
+SiteChecker is command line batch processing python script that checks if sites changed, then push notification via [Pushbullet](https://docs.pushbullet.com/).
 
 ## Requirement
 - Python 3.5 or higher
